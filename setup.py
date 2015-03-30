@@ -36,7 +36,7 @@ setup(
         ],
       include_package_data = True,
       install_requires = [
-        "Django>=1.5",
+        "Django==1.6.5",
         "python-magic==0.4.3"
         ] + imaging_library,
 )
